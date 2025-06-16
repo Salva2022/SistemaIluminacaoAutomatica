@@ -1,5 +1,14 @@
-# SistemaIluminacaoAutomatica
-Projeto de um sistema de iluminação automática IoT feito com Arduino uno (C++) integrado ao Esp32. O intuito do projeto seria para acender um led após a iluminação ambiente diminuir (detectado com ldr), e demonstrar via internet (Wifi) através de um endereço IP o estado da lâmpada (DELSLIGADO/LIGADO).
+# Sistema de Iluminação Automática (IoT)
+
+### Tecnologias Utilizadas
+**Linguagens:** C++ (para a programação dos microcontroladores), HTML e CSS (para a página de monitoramento).
+
+**Hardware:** Arduino Uno, ESP32, Sensor de Luminosidade (LDR)
+
+Este projeto implementa um sistema de iluminação automática que utiliza um **Arduino Uno** para a lógica de controle e um **ESP32** como servidor web para monitoramento.
+
+O objetivo é acionar um LED (simulando uma lâmpada) quando a luminosidade do ambiente, medida por um sensor LDR, cai abaixo de um certo nível. O status do sistema (LIGADO/DESLIGADO) pode ser visualizado em tempo real em qualquer dispositivo conectado na mesma rede Wi-Fi, através de uma página web servida pelo ESP32.
+
 
 Esquema de montagem do Sistema de Iluminação Automático:
 
