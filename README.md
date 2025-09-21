@@ -7,7 +7,7 @@
 
 Este projeto implementa um sistema de iluminação automática que utiliza um **Arduino Uno** para a lógica de controle e um **ESP32** como servidor web para monitoramento.
 
-O objetivo é acionar um LED (simulando uma lâmpada) quando a luminosidade do ambiente, medida por um sensor LDR, cai abaixo de um certo nível. O status do sistema (LIGADO/DESLIGADO) pode ser visualizado em tempo real em qualquer dispositivo conectado na mesma rede Wi-Fi, através de uma página web servida pelo ESP32.
+O objetivo é acionar um LED (simulando uma lâmpada) quando a luminosidade do ambiente, medida por um sensor LDR, cai abaixo de um certo nível. O status do sistema (LIGADO/DESLIGADO) pode ser visualizado em tempo real em qualquer dispositivo conectado na mesma rede Wi-Fi, por meio de uma página web servida pelo ESP32.
 
 
 Esquema de montagem do Sistema de Iluminação Automático:
@@ -31,7 +31,7 @@ Imagem LED Ligado (Amarelo à esquerda):
 
 ![image](https://github.com/user-attachments/assets/bb9dc618-2786-463f-9b4c-3e113d0fdfcc)
 
-Imagem LED Desligado e Endereço IP "Sistema Desligado"
+Imagem LED Desligado e Endereço IP "Sistema Desligado":
 
 ![image](https://github.com/user-attachments/assets/f3e14626-bf60-4e11-80ae-8568840c8c26)
 
